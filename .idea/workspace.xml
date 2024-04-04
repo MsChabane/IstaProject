@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37445f4-b621-44bf-98a0-a9ec89ee6e67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/Exceptions/ActifException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/ActifControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/CategorieControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/ChapitreControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/FournisseurControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/GarantieControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/SessionsControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Actif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/BaseDonnee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Categorie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Chapitre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Fournisseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Garantie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Sessions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/resource/istaim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/view/AchatAjout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/view/Colors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/view/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f37445f4-b621-44bf-98a0-a9ec89ee6e67" name="Changes" comment="programme d'ajouter actif apres l'achat" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,11 +86,24 @@
       <updated>1712143403334</updated>
       <workItem from="1712143404470" duration="1672000" />
       <workItem from="1712156599680" duration="10644000" />
-      <workItem from="1712208562195" duration="37080000" />
+      <workItem from="1712208562195" duration="37491000" />
     </task>
+    <task id="LOCAL-00001" summary="programme d'ajouter actif apres l'achat">
+      <option name="closed" value="true" />
+      <created>1712273049640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712273049640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="programme d'ajouter actif apres l'achat" />
+    <option name="LAST_COMMIT_MESSAGE" value="programme d'ajouter actif apres l'achat" />
   </component>
 </project>
