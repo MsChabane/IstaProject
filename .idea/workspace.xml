@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f37445f4-b621-44bf-98a0-a9ec89ee6e67" name="Changes" comment="programme d'ajouter actif apres l'achat">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/Exceptions/ActifException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ActifException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/ActifControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/control/ActifControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/CategorieControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/control/CategorieControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/ChapitreControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/control/ChapitreControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/FournisseurControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/control/FournisseurControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/GarantieControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/control/GarantieControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/control/SessionsControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/control/SessionsControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Actif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Actif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/BaseDonnee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/BaseDonnee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Categorie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Chapitre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Chapitre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Fournisseur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Fournisseur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Garantie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Garantie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/model/Sessions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Sessions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/resource/istaim.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/istaim.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/view/AchatAjout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/view/AchatAjout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/view/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/view/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ista/gestionactif/achatmodifier/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mvc/model/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mvc/model/Unit.java" afterDir="false" />
-    </list>
+    <list default="true" id="f37445f4-b621-44bf-98a0-a9ec89ee6e67" name="Changes" comment="fixe problem d'ajouter plusieur constructeur dans BDD&#10;et supprimer le package qui ne sont pas utilisé&#10;change package de unit dans mvc" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712273049640</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixe problem d'ajouter plusieur constructeur dans BDD&#10;et supprimer le package qui ne sont pas utilisé&#10;change package de unit dans mvc">
+      <option name="closed" value="true" />
+      <created>1712340457915</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712340457915</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="programme d'ajouter actif apres l'achat" />
-    <option name="LAST_COMMIT_MESSAGE" value="programme d'ajouter actif apres l'achat" />
+    <MESSAGE value="fixe problem d'ajouter plusieur constructeur dans BDD&#10;et supprimer le package qui ne sont pas utilisé&#10;change package de unit dans mvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixe problem d'ajouter plusieur constructeur dans BDD&#10;et supprimer le package qui ne sont pas utilisé&#10;change package de unit dans mvc" />
   </component>
 </project>
