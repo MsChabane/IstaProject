@@ -1,10 +1,4 @@
-package ista.gestionactif.achatmodifier.view;
-
-import ista.gestionactif.achatmodifier.control.FournisseurControl;
-import ista.gestionactif.achatmodifier.model.Categorie;
-import ista.gestionactif.achatmodifier.model.Chapitre;
-import ista.gestionactif.achatmodifier.model.Fournisseur;
-import ista.gestionactif.achatmodifier.model.Sessions;
+package mvc.view;
 
 public class Main {
     public static void main(String[] args) {

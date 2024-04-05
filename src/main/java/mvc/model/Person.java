@@ -1,4 +1,4 @@
-package ista.gestionactif.achatmodifier.model;
+package mvc.model;
 
 public class Person {
     private int id;

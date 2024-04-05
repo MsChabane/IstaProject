@@ -1,12 +1,9 @@
-package ista.gestionactif.achatmodifier.control;
+package mvc.control;
 
-import ista.gestionactif.achatmodifier.model.BaseDonnee;
-import ista.gestionactif.achatmodifier.model.Fournisseur;
+import mvc.model.BaseDonnee;
+import mvc.model.Fournisseur;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class FournisseurControl {
 
@@ -54,7 +51,11 @@ public class FournisseurControl {
             prpStmt.setString(1, fournisseur.getNom());
             prpStmt.setString(2, fournisseur.getPrenom());
             prpStmt.setString(3, fournisseur.getNumTel());
-            prpStmt.setString(4, fournisseur.getIntituleEse());
+            if(fournisseur.getIntituleEse().isEmpty()){
+                prpStmt.setNull(4, Types.VARCHAR);
+            }else {
+                prpStmt.setString(4, fournisseur.getIntituleEse());
+            }
             prpStmt.setString(5, fournisseur.getNumRegCom());
             prpStmt.executeUpdate();
             return true;

@@ -1,6 +1,5 @@
-package ista.gestionactif.achatmodifier.view;
+package mvc.view;
 
-import java.awt.*;
 import java.awt.Color;
 
 public class Colors{

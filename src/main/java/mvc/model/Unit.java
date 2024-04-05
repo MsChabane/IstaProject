@@ -1,5 +1,5 @@
 package mvc.model;
 
-public enum Unit{
+public enum Unit {
     JOUR, SEMAINE, MOIS, ANNEE;
 }

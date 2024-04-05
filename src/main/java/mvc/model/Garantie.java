@@ -1,9 +1,6 @@
-package ista.gestionactif.achatmodifier.model;
+package mvc.model;
 
 import java.util.Date;
-enum Unit{
-    JOUR, SEMAINE, MOIS, ANNEE;
-}
 
 public class Garantie {
     private int id;
@@ -13,20 +10,20 @@ public class Garantie {
     private String cndt;
     private String type;
 
-    public Garantie(Date dtDeb, int duree, Unit unit, String cndt, String type) {//sagam kima lwla ta3 Actif
-        this.dtDeb = dtDeb;
-        this.duree = duree;
-        this.unit = unit;
-        this.cndt = cndt;
-        this.type = type;
-    }
     public Garantie(Date dtDeb, int duree, Unit unit, String type) {
         this.dtDeb = dtDeb;
         this.duree = duree;
         this.unit = unit;
-        this.cndt = "";
         this.type = type;
+        this.cndt = "";
     }
+
+    public Garantie(Date dtDeb, int duree, Unit unit, String cndt, String type) {
+        this(dtDeb, duree, unit, type);
+        this.cndt = cndt;
+    }
+
+
 
     public Date getDtDeb() {
         return dtDeb;

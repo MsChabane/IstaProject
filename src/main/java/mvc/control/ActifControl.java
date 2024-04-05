@@ -1,8 +1,8 @@
-package ista.gestionactif.achatmodifier.control;
+package mvc.control;
 
-import ista.gestionactif.achatmodifier.Exceptions.ActifException;
-import ista.gestionactif.achatmodifier.model.Actif;
-import ista.gestionactif.achatmodifier.model.BaseDonnee;
+import Exceptions.ActifException;
+import mvc.model.Actif;
+import mvc.model.BaseDonnee;
 
 import java.sql.*;
 
@@ -32,10 +32,23 @@ public class ActifControl {
             prpStmt.setString(4, actif.getDesg());
             prpStmt.setDouble(5, actif.getValeur());
             prpStmt.setString(6, actif.getObsrv());
-            prpStmt.setString(7, actif.getBdCmd());
-            prpStmt.setString(8, actif.getBdLvrs());
+
+            if(actif.getBdCmd().isEmpty()){
+                prpStmt.setNull(7, Types.VARCHAR);
+                prpStmt.setNull(8, Types.VARCHAR);
+            }else {
+                prpStmt.setString(7, actif.getBdCmd());
+                prpStmt.setString(8, actif.getBdLvrs());
+            }
+
             prpStmt.setString(9, actif.getIdCa());
-            prpStmt.setInt(10, actif.getIdGa());
+
+            if(actif.getIdGa() == -1) {
+                prpStmt.setInt(10, actif.getIdGa());
+            }else {
+                prpStmt.setNull(10, Types.INTEGER);
+            }
+
             prpStmt.setInt(11, actif.getIdFr());
             prpStmt.executeUpdate();
             return true;

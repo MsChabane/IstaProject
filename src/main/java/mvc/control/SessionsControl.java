@@ -1,7 +1,7 @@
-package ista.gestionactif.achatmodifier.control;
+package mvc.control;
 
-import ista.gestionactif.achatmodifier.model.BaseDonnee;
-import ista.gestionactif.achatmodifier.model.Sessions;
+import mvc.model.BaseDonnee;
+import mvc.model.Sessions;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

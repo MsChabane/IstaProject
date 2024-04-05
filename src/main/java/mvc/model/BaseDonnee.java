@@ -1,4 +1,4 @@
-package ista.gestionactif.achatmodifier.model;
+package mvc.model;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

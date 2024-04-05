@@ -1,4 +1,4 @@
-package ista.gestionactif.achatmodifier.Exceptions;
+package Exceptions;
 
 public class ActifException extends Exception{
     public ActifException() {

@@ -1,4 +1,4 @@
-package ista.gestionactif.achatmodifier.view;
+package mvc.view;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -7,7 +7,6 @@ import javax.swing.JTextField;
 
 import java.awt.Color;
 
-import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.Font;

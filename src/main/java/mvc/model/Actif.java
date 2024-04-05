@@ -1,4 +1,4 @@
-package ista.gestionactif.achatmodifier.model;
+package mvc.model;
 
 import java.util.Date;
 
@@ -21,12 +21,13 @@ public class Actif {
         this.desg = desg;
         this.valeur = valeur;
         this.obsrv = obsrv;
-        this.bdCmd = "";//bdlha
-        this.bdLvrs = "";//--
+        this.bdCmd = "";
+        this.bdLvrs = "";
         this.idCa = idCa;
-        this.idGa = 0;//---
+        this.idGa = -1;
         this.idFr = idFr;
     }
+
     public Actif(String id, String idInvtr, Date dateInvtr, String desg, double valeur, String obsrv, String idCa, int idFr, int idGa) {
         this(id, idInvtr, dateInvtr, desg, valeur, obsrv, idCa, idFr);
         this.idGa = idGa;

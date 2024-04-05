@@ -1,7 +1,7 @@
-package ista.gestionactif.achatmodifier.control;
+package mvc.control;
 
-import ista.gestionactif.achatmodifier.model.Garantie;
-import ista.gestionactif.achatmodifier.model.BaseDonnee;
+import mvc.model.Garantie;
+import mvc.model.BaseDonnee;
 
 import java.sql.*;
 
@@ -29,7 +29,11 @@ public class GarantieControl {
             prpStmt.setDate(1, new Date(garantie.getDtDeb().getTime()));
             prpStmt.setInt(2, garantie.getDuree());
             prpStmt.setString(3, String.valueOf(garantie.getUnit()));
-            prpStmt.setString(4, garantie.getCndt());
+            if(garantie.getCndt().isEmpty()){
+                prpStmt.setNull(4, Types.VARCHAR);
+            }else {
+                prpStmt.setString(4, garantie.getCndt());
+            }
             prpStmt.setString(5, garantie.getType());
             prpStmt.executeUpdate();
             return getDernierID();
